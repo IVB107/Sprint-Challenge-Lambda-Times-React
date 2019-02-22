@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Tabs from './Tabs';
 import Cards from './Cards';
 
@@ -66,6 +65,7 @@ export default class Content extends Component {
         <Cards 
           cards={this.filterCards()} 
         />
+
       </div>
     );
   }
